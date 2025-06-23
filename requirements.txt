@@ -1,4 +1,7 @@
 streamlit
 openai
 PyPDF2
-langchain
+langchain[openai]
+tiktoken
+faiss-cpu
+python-dotenv
