@@ -2,7 +2,7 @@
 import streamlit as st
 import openai
 from PyPDF2 import PdfReader
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.llms import AzureOpenAI
